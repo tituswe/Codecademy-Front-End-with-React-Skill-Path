@@ -1,0 +1,20 @@
+// Temperature of today in Kelvin.
+const kelvin = 293;
+
+// Temperature of today in Celsius.
+const celsius = kelvin - 273;
+
+// Temperature of today in Fahrenheit.
+let fahrenheit = celsius * (9 / 5) + 32;
+
+// Fahrenheit temperature rounded down to nearest integer.
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+// Temperature of today in Newton.
+let newton = celsius * (33 / 100);
+
+newton = Math.floor(newton);
+
+console.log(`The temperature is ${newton} degrees Newton.`);
