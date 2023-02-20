@@ -1,0 +1,27 @@
+// My age.
+const myAge = 23;
+
+// Early years is used for calculating dog years.
+let earlyYears = 2;
+
+// Early years is multiplied by 10.5.
+earlyYears *= 10.5;
+
+// Later years is calculated by subtracting 2 from my age.
+let laterYears = myAge - 2;
+
+// Later years is multiplied by 4.
+laterYears *= 4;
+
+console.log(earlyYears, laterYears);
+
+// My age in dog years is calculated by adding early years and later years.
+myAgeInDogYears = earlyYears + laterYears;
+
+// My name lowercased.
+const myName = 'Titus'.toLowerCase();
+
+// Prints my name, my age in human years, and my age in dog years.
+console.log(
+	`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years`
+);
